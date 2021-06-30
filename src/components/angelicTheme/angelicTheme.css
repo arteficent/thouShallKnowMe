@@ -11,7 +11,10 @@ sunburst  #F1C902  RGB values (241, 201, 2) cmyk  (0%, 17%, 99%, 6%)  */
     font-weight: 100;
 }
 .sun-logo {
+    
     animation: sun-logo-spin infinite 40s linear;
+    height: 10vh;
+    
 } 
 
 @keyframes sun-logo-spin{
