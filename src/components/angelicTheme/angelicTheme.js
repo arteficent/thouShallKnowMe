@@ -2,17 +2,12 @@ import React from 'react'
 import './angelicTheme.css'
 import {ReactComponent as Sun} from './angelicIcons/sun.svg';
 import {ReactComponent as Cloud1} from './angelicIcons/cloud1.svg';
-import { Row,Col,Container } from 'react-bootstrap';
+import {IoSunny} from 'react-icons/io';
 
 function AngelicTheme() {
    return (
        <div className='dpShadow'>
-           <Container fluid>
-            <Row>
-                <Col><Sun className='sun-logo'/></Col>
-            </Row>
-            </Container>           
-           <h1>THOU shall die</h1>
+           <IoSunny className='sun-logo'/>
            <Cloud1 className='cloud'/>
        </div>             
     )
